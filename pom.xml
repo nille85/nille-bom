@@ -3,8 +3,13 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>be.nille</groupId>
     <artifactId>nille-bom</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
+    
+    <name>nille-bom</name>
+    <description>Bill Of Materials for Java projects</description>
+    <url>https://github.com/nille85/nille-bom</url>
+    
     <properties>
         <java.version>1.7</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>    
@@ -22,7 +27,7 @@
     <parent>
         <artifactId>nille-parent-pom</artifactId>
         <groupId>be.nille</groupId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     
@@ -113,5 +118,4 @@
         </dependencies>
     </dependencyManagement>
     
-</project>
 </project>
